@@ -1,0 +1,12 @@
+tree_sitter>=0.20
+# language bindings (optional for full parsing support)
+tree-sitter-python
+tree-sitter-javascript
+tree-sitter-java
+tree-sitter-kotlin
+tree-sitter-cpp
+
+chromadb>=1.5
+nomic>=3.9
+# optional for local inference
+nomic[local]
